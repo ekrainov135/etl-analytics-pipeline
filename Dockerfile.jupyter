@@ -1,0 +1,4 @@
+FROM jupyter/minimal-notebook:14068d88e602
+COPY ./requirements.txt ./requirements.txt
+RUN pip install -r requirements.txt
+
